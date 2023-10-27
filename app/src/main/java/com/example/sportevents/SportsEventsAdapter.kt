@@ -72,7 +72,22 @@ class SportsEventsAdapter(
         private val sportName: TextView = itemView.findViewById(R.id.tvSportName)
 
         fun bind(sport: Sport) {
-            sportName.text = sport.d
+            // Check the type of sport.d and set the text accordingly
+            when (sport.d) {
+                is String -> {
+                    sportName.text = sport.d
+                }
+
+                is List<*> -> {
+                    // If it's a list, you can join the items into a single string or handle it differently
+                    sportName.text = (sport.d).joinToString(", ")
+                }
+
+                else -> {
+                    // Handle unexpected type or set a default value
+                    sportName.text = "Unknown"
+                }
+            }
 
             itemView.setOnClickListener {
                 sport.isExpanded = !sport.isExpanded

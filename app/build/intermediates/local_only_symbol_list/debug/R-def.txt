@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_favorite_border
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnFavorite
+id progressBar
+id recyclerViewSports
+id textViewError
+id toggleFavoriteFilter
+id tvCountdown
+id tvEventName
+id tvSportName
+layout activity_main
+layout item_event
+layout item_sport_header
+mipmap ic_launcher
+mipmap ic_launcher_round
+string all
+string app_name
+string error_fetching_data
+string favorites
+string hh_mm_ss
+style Theme.SportEvents
+xml backup_rules
+xml data_extraction_rules
