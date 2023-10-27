@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sport Events</string>
+    <string name="error_fetching_data">Error fetching data</string>
+    <string name="all">All</string>
+    <string name="favorites">Favorites</string>
+    <string name="hh_mm_ss">HH:MM:SS</string>
+</resources>
