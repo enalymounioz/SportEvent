@@ -2873,6 +2873,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_arrow_back_black_24
+drawable ic_arrow_down
+drawable ic_arrow_up
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -2893,6 +2895,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable ic_star
+drawable ic_star_border
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3057,7 +3061,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btnFavorite
 id buttonPanel
 id cancel_button
 id center
@@ -3152,6 +3155,7 @@ id graph
 id graph_wrap
 id group_divider
 id groups
+id headerLayout
 id header_title
 id hide_ime_id
 id hideable
@@ -3170,6 +3174,8 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivChevron
+id ivStar
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -3303,6 +3309,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvEvents
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3406,8 +3413,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCompetitor1
+id tvCompetitor2
 id tvCountdown
-id tvEventName
 id tvSportName
 id unchecked
 id uniform
@@ -3795,6 +3803,7 @@ string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
+string sport
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

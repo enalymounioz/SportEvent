@@ -12,6 +12,7 @@
     <string name="error_fetching_data">Error fetching data</string>
     <string name="favorites">Favorites</string>
     <string name="hh_mm_ss">HH:MM:SS</string>
+    <string name="sport">SPORT</string>
     <style name="Theme.SportEvents" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

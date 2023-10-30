@@ -1,9 +1,11 @@
 package com.example.sportevents
 
+import com.google.gson.annotations.SerializedName
 data class Event(
-    val i: String,
-    val si: String,
-    val d: String,
-    val tt: Long,
+    @SerializedName("i") val eventId: String,
+    @SerializedName("si") val sportId: String,
+    @SerializedName("d") val eventName: String,
+    @SerializedName("sh") val shortHeader: String,
+    @SerializedName("tt") val eventStartTime: Long,
     var isFavorite: Boolean = false
 )

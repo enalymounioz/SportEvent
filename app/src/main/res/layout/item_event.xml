@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
     android:background="#FFFFFF">
 
-    <TextView
-        android:id="@+id/tvEventName"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/tvCountdown"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14sp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/hh_mm_ss" />
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center">
 
-    <ImageButton
-        android:id="@+id/btnFavorite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="?android:selectableItemBackground"
-        android:src="@drawable/ic_favorite_border" />
+        <TextView
+            android:id="@+id/tvCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="@string/hh_mm_ss" />
+
+        <ImageView
+            android:id="@+id/ivStar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_star_border" />
+
+        <TextView
+            android:id="@+id/tvCompetitor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Competitor 1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="vs" />
+
+        <TextView
+            android:id="@+id/tvCompetitor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="Competitor 2" />
+
+    </LinearLayout>
 </LinearLayout>
